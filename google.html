@@ -1,34 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	text-decoration: none;
-}
-li {
-    display: inline;
-	text-decoration: none;
-}
-</style>
-<img src="google.jpg">
+	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="google.css">
 </head>
 <body>
-<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-<form>
-<input type="text" name="search"><br>
-<input type="submit" name="Search" width="100px";>
-</form>
-<footer>
-  <p>Powered by: Stephen Nwadike</p>
-  <p>Contact information: <a href="mailto:mank4cfc@gmail.com">mank4cfc@gmail.com</a>.</p>
-</footer>
+	<div class="container">
+		<div class="header">
+			<ul>
+			<li><a href="https://mail.google.com/">Gmail</a></li>
+			<li><a href="https://images.google.com/">Images</a></li>
+			<li><img src="ic_apps_48px-128.png" alt="Apps" style="width: 25px; height: 25px"></li>
+			<li><a href="https://accounts.google.com/login?hl=en"><input type="submit" value="Sign in" id="sign-in"></a></li>
+		</ul>
+			</div>
+			<br>
+		<div class="main">
+			<img src="google.jpg" alt="Google Logo" style="width:272px; height:92px" align="center">
+				<div class="country">Nigeria</div>
+			</div>
+			<form action="GET">
+				<div class="search-bar">
+					<div class="mic">
+						<img src="search-mic.png">
+					</div>
+					<input type="text" name="search">
+					<br>
+				</div>
+				<div class="buttons">
+				<input class="search" type="submit" value="Google Search" >
+				<input class="lucky" type="submit" value="I'm Feeling Lucky">
+					<div id="offer"> Support the UN's International Day of Peace
+					<a href="https://www.youtube.com/watch?v=V3_dl-yl74s&list=PL8sOof-07ZGeSajQ7MNOX67e9m8wy1yKJ"></a>
+					</div>
+				</div>
+			</form>
+			<br>
+		<div class="footer">
+			<ul>
+				<li><a href="https://www.google.ie/intl/en/ads/">Advertising</a></li>
+				<li><a href="https://www.google.ie/services/">Business</a></li>
+				<li><a href="https://www.google.ie/intl/en/about/">About</a></li>
+			</ul>
+			<ol>
+				<li><a href="https://www.google.ie/intl/en/policies/privacy/">Privacy</a></li>
+				<li><a href="https://www.google.ie/intl/en/policies/terms/regional.html">Terms</a></li>
+				<li><a href="https://www.google.ie/preferences">Settings</a></li>
+			</ol>
+			</div>
+		</div>
 </body>
 </html>
